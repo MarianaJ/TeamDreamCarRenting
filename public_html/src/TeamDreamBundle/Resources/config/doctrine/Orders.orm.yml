@@ -1,0 +1,22 @@
+TeamDreamBundle\Entity\Orders:
+    type: entity
+    table: null
+    repositoryClass: TeamDreamBundle\Repository\OrdersRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        userId:
+            type: string
+            length: '100'
+            unique: true
+            column: user_id
+        carId:
+            type: string
+            length: '100'
+            unique: true
+            column: car_id
+    lifecycleCallbacks: {  }

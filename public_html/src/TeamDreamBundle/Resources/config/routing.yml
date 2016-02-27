@@ -1,0 +1,20 @@
+team_dream_homepage:
+    path:     /
+    defaults: { _controller: TeamDreamBundle:Default:index }
+
+glowna:
+    path:     /glowna
+    defaults: { _controller: TeamDreamBundle:Default:glowna }
+    
+onas:
+    path:     /onas
+    defaults: { _controller: TeamDreamBundle:Default:onas }
+
+auta:
+    path:     /auta
+    defaults: { _controller: TeamDreamBundle:Default:auta }
+    
+
+kontakt:
+    path:     /kontakt
+    defaults: { _controller: TeamDreamBundle:Default:kontakt }

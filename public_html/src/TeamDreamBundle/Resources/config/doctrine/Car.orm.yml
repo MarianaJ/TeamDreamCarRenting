@@ -1,0 +1,30 @@
+TeamDreamBundle\Entity\Car:
+    type: entity
+    table: null
+    repositoryClass: TeamDreamBundle\Repository\CarRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        brand:
+            type: string
+            length: '255'
+        equipment:
+            type: string
+            length: '255'
+        type:
+            type: string
+            length: '100'
+        fuel:
+            type: string
+            length: '100'
+        box:
+            type: string
+            length: '200'
+        price:
+            type: string
+            length: '25'
+    lifecycleCallbacks: {  }

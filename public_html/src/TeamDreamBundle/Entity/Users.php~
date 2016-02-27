@@ -1,0 +1,60 @@
+<?php
+
+namespace TeamDreamBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Users
+ */
+class Users
+{
+    /**
+     * @var int
+     */
+    private $id;
+
+    /**
+     * @var string
+     */
+    private $orders;
+
+/**
+* @ORM\OneToMany(targetEntity="Orders", mappedBy="username")
+*/
+
+
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set orders
+     *
+     * @param string $orders
+     * @return Users
+     */
+    public function setOrders($orders)
+    {
+        $this->orders = $orders;
+
+        return $this;
+    }
+
+    /**
+     * Get orders
+     *
+     * @return string 
+     */
+    public function getOrders()
+    {
+        return $this->orders;
+    }
+}

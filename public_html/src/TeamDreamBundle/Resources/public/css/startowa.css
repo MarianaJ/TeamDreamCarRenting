@@ -1,0 +1,39 @@
+body
+{
+	background-image:url('../images/startowa.jpg');
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size:cover;
+	font-family: verdana,arial,serif,"times new roman";
+	margin-left:13px;
+	position: relative;
+
+
+}
+
+
+
+a.przycisk
+{
+	background: url(../images/start1.png)no-repeat;
+	height: 100px;
+	width: 300px;
+	display: block; 
+	position: absolute; 
+	top: 80%;
+	left: 40%;
+
+
+}
+
+a.przycisk:hover
+{
+		background: url(../images/start2.png)no-repeat;
+		height: 100px;
+		width: 300px;
+		display: block;
+		position: absolute;
+		top: 80%;
+		left: 40% ;
+	
+}

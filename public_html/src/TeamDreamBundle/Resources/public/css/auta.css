@@ -1,0 +1,104 @@
+body
+{
+	background-image:url('../images/tlo.png');
+	 background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-attachment: fixed;
+	font-family: verdana,arial,serif,"times new roman";
+	
+}
+
+
+
+a.glowna{
+	background: url(../images/stronaGlowna1.png)no-repeat;
+	height: 60px;
+	width: 250px;
+	display: block; 
+	position: absolute; 
+	left:50px;
+}
+a.glowna:hover {
+		background: url(../images/stronaGlowna2.png)no-repeat;
+		height: 60px;
+		width: 250px;
+		display: block;
+		position: absolute;
+		left: 50px;
+}
+
+
+a.onas{
+	background: url(../images/onas1.png)no-repeat;
+	height: 60px;
+	width: 250px;
+	display: block; 
+	position: absolute; 
+	left: 350px;
+}
+a.onas:hover {
+		background: url(../images/onas2.png)no-repeat;
+		height: 60px;
+		width: 250px;
+		display: block;
+		position: absolute;
+		left: 350px;
+}
+
+a.auta{
+	background: url(../images/auta1.png)no-repeat;
+	height: 60px;
+	width: 250px;
+	display: block; 
+	position: absolute; 
+	left: 650px;
+}
+a.auta:hover {
+		background: url(../images/auta2.png)no-repeat;
+		height: 60px;
+		width: 250px;
+		display: block;
+		position: absolute;
+		left: 650px;
+}
+
+
+a.kontakt{
+	background: url(../images/kontakt1.png)no-repeat;
+	height: 60px;
+	width: 250px;
+	display: block; 
+	position: absolute; 
+	left: 950px;
+}
+a.kontakt:hover {
+		background: url(../images/kontakt2.png)no-repeat;
+		height: 60px;
+		width: 250px;
+		display: block;
+		position: absolute;
+		left: 950px;
+}
+
+
+p.jeden
+{
+	color:white;
+	font-size:20;
+
+}
+
+p.dwa
+{
+	display:inline;
+		
+}
+
+
+
+p.trzy
+{
+	color:white;
+	font-size:20;
+	font-family: cursive;
+}

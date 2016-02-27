@@ -1,0 +1,15 @@
+TeamDreamBundle\Entity\Users:
+    type: entity
+    table: null
+    repositoryClass: TeamDreamBundle\Repository\UsersRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        orders:
+            type: string
+            length: '255'
+    lifecycleCallbacks: {  }
